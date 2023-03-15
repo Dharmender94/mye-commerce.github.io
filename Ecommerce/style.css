@@ -413,6 +413,16 @@ body {
 
 #sm-banner .banner-box2 {
     background: url(./banner/b10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
 }
 
 #sm-banner h4 {
@@ -553,12 +563,13 @@ body {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
 
 }
 
 .footer-main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -800,13 +811,13 @@ body {
 
 #contact-us {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #contact-us .contact-side h2 {
     line-height: 1;
-    font-size: 40px;
+    font-size: 32px;
     padding-bottom: 20px;
 }
 
@@ -826,13 +837,14 @@ body {
 
 #contact-form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 30px 50px;
     border: 1px solid rgb(235, 232, 232);
 }
 
 #contact-form .contact-form-details {
-    flex-basis: 75%;
+    flex-basis: 70%;
 
 }
 
@@ -859,6 +871,7 @@ body {
 
 #contact-form .people {
     display: flex;
+
     flex-direction: column;
 }
 
@@ -1058,6 +1071,18 @@ body {
     #news-letter{
         flex-direction: column;
         text-align: center;
+    }
+
+    #sm-banner .banner-box{
+        width: auto;
+    }
+    #contact-form .people {
+        width: 250px;
+    }
+
+
+    .footer-col{
+        margin-bottom: 20px;
     }
 
 }
